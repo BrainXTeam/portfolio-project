@@ -31,8 +31,8 @@ export default function Index() {
 			<CTABanner />
 			<Experience />
 			<Projects />
-			<Clients />
-			<Blogs />
+			{/* <Clients />
+			<Blogs /> */}
 			<GetInTouch />
 			<Footer />
 			<Switcher />
