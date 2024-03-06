@@ -1,54 +1,56 @@
 import * as Icon from 'react-feather';
+
 export const expertiseData = [
     {
-        title:'Developing',
-        Icon: Icon.Monitor
+        title: 'Ruby On Rails',
+        Icon: Icon.Code,
     },
     {
-        title:'Mac OS',
-        Icon: Icon.StopCircle
+        title: 'Node|Express JS',
+        Icon: Icon.Server,
     },
     {
-        title:'Cinema',
-        Icon: Icon.Video
+        title: 'React JS',
+        Icon: Icon.Feather,
     },
     {
-        title:'Coffee',
-        Icon: Icon.Coffee
+        title: 'Next JS',
+        Icon: Icon.Coffee,
     },
     {
-        title:'Music',
-        Icon: Icon.Music
+        title: 'Stimulus',
+        Icon: Icon.Activity,
     },
     {
-        title:'Games',
-        Icon: Icon.Watch
+        title: 'Github | GitLab',
+        Icon: Icon.GitHub,
     },
     {
-        title:'Designing',
-        Icon: Icon.Box
+        title: 'Bitbucket',
+        Icon: Icon.Gitlab,
     },
     {
-        title:'Sports',
-        Icon: Icon.Target
+        title: 'RestAPIs',
+        Icon: Icon.Target,
     },
     {
-        title:'Painting',
-        Icon: Icon.PenTool
+        title: 'MySQL | PostgreSQL',
+        Icon: Icon.Database,
     },
     {
-        title:'Reading',
-        Icon: Icon.Book
+        title: 'HTML | CSS | JS',
+        Icon: Icon.Codepen,
     },
     {
-        title:'Android',
-        Icon: Icon.Smartphone
+        title: 'Google Maps',
+        Icon: Icon.MapPin,
     },
     {
-        title:'Other Activity',
-        Icon: Icon.Activity
+        title: 'RSpec',
+        Icon: Icon.CheckSquare,
     },
-]
+];
+
 export const servicesData = [
     {
         title:'UX / UI Design',

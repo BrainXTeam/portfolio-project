@@ -14,11 +14,11 @@ export default function HeroTwo(){
             before:content-[''] before:absolute before:-z-1 sm:before:-bottom-80 before:-bottom-40 before:right-0 before:left-0 before:mx-auto before:rounded-full before:bg-amber-500 sm:before:w-[40rem] before:w-[20rem] sm:before:h-[40rem] before:h-[20rem]" id="home">
             <div className="container relative z-1">
                 <div className="grid grid-cols-1 text-center mt-5 relative">
-                    <h4 className="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal mb-4">Dennis Scott</h4>
+                    <h4 className="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal mb-4">Basit Khan</h4>
                     <h4 className="font-semibold leading-normal text-[22px] mb-5">I am <TypeAnimation
                             sequence={[
                                 // Same substring at the start will only be typed out once, initially
-                                'Dennis Scott',
+                                'Basit Khan',
                                 1000, // wait 1s before replacing "Mice" with "Hamsters"
                                 'Website Designer',
                                 1000,

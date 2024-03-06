@@ -9,7 +9,7 @@ export default function HeroThree(){
             <div className="container">
                 <div className="grid grid-cols-1 text-center mt-5 relative">
                     <Image width={0} height={0} sizes="100vw" style={{width:"100%", height:"auto"}} src="/images/hero/4.jpg" className="rounded-full h-28 w-28 mx-auto wow animate__animated animate__fadeInUp" data-wow-delay=".1s" alt=""/>
-                    <h4 className="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal text-white my-4 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">Dennis Scott</h4>
+                    <h4 className="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal text-white my-4 wow animate__animated animate__fadeInUp" data-wow-delay=".3s">Basit Khan</h4>
                     <p className="text-white/50 max-w-xl mx-auto wow animate__animated animate__fadeInUp" data-wow-delay=".5s">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
 
                     <div className="mt-6 wow animate__animated animate__fadeInUp" data-wow-delay=".7s">

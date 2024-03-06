@@ -38,7 +38,7 @@ export default function HeroOne() {
 								<span
 									className="typewrite text-amber-500"
 									data-period="2000"
-									data-type='[ "Dennis Scott", "Website Designer", "Web Developer", "UI/UX Designer" ]'
+									data-type='[ "Basit Khan", "Website Designer", "Web Developer", "UI/UX Designer" ]'
 								>
 									{" "}
 									<span className="wrap"></span>{" "}

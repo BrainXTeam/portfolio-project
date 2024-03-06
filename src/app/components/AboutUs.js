@@ -76,7 +76,7 @@ export default function AboutUs() {
 			<div className="container md:mt-24 mt-16">
 				<div className="grid grid-cols-1 pb-8 text-center">
 					<h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
-						Hobbies & Expertise
+						Technical skills & Expertise
 					</h3>
 
 					<p className="text-slate-400 max-w-xl mx-auto text-[15px]">

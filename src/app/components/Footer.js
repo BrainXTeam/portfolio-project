@@ -16,7 +16,7 @@ export default function Footer(){
                     </div>
 
                     <div className="lg:col-span-5 text-center mt-6 md:mt-0">
-                        <p className="mb-0">© {new Date().getFullYear()} Dennis. Design & Develop with {""} <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
+                        <p className="mb-0">© {new Date().getFullYear()} Basit Khan. Design & Develop with {""} <i className="mdi mdi-heart text-red-600"></i> by <Link href="https://shreethemes.in/" target="_blank" className="text-reset">Shreethemes</Link>.</p>
                     </div>
 
                     <ul className="lg:col-span-4 list-none md:text-end text-center mt-6 md:mt-0">
