@@ -43,7 +43,7 @@ export default function Navbar() {
 					{/* <!-- Navbar Button --> */}
 					<ul className="list-none menu-social mb-0">
 						<li className="inline-flex">
-							<Link href="" className="ms-1">
+							<Link href="https://www.linkedin.com/in/abdul-basit-khan-dev/" className="ms-1" target="_blank">
 								<span className="login-btn-primary">
 									<span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
 										<Unicons.UilLinkedin width={16} />
@@ -55,7 +55,7 @@ export default function Navbar() {
 									</span>
 								</span>
 							</Link>
-							<Link href="" className="ms-1">
+							<Link href="https://github.com/abdul-basit-khan-dev" target="_blank" className="ms-1">
 								<span className="login-btn-primary ">
 									<span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
 										<Unicons.UilGithub width={16} />
