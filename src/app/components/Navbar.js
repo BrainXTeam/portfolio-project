@@ -46,36 +46,24 @@ export default function Navbar() {
 							<Link href="" className="ms-1">
 								<span className="login-btn-primary">
 									<span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
-										<Unicons.UilDribbble width={16} />
+										<Unicons.UilLinkedin width={16} />
 									</span>
 								</span>
 								<span className="login-btn-light">
 									<span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700">
-										<Unicons.UilDribbble width={16} />
+										<Unicons.UilLinkedin width={16} />
 									</span>
 								</span>
 							</Link>
 							<Link href="" className="ms-1">
 								<span className="login-btn-primary ">
 									<span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
-										<Unicons.UilBehance width={16} />
+										<Unicons.UilGithub width={16} />
 									</span>
 								</span>
 								<span className="login-btn-light ">
 									<span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700">
-										<Unicons.UilBehance width={16} />
-									</span>
-								</span>
-							</Link>
-							<Link href="" className="ms-1">
-								<span className="login-btn-primary">
-									<span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
-										<Unicons.UilInstagram width={16} />
-									</span>
-								</span>
-								<span className="login-btn-light">
-									<span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700">
-										<Unicons.UilInstagram width={16} />
+										<Unicons.UilGithub width={16} />
 									</span>
 								</span>
 							</Link>
@@ -160,7 +148,7 @@ export default function Navbar() {
 								Projects
 							</Link1>
 						</li>
-						<li className="nav-item">
+						{/* <li className="nav-item">
 							<Link1
 								to="blog"
 								activeClass="active"
@@ -171,7 +159,7 @@ export default function Navbar() {
 							>
 								Blogs
 							</Link1>
-						</li>
+						</li> */}
 						<li className="nav-item">
 							<Link1
 								to="contact"
