@@ -20,14 +20,13 @@ export default function HeroOne() {
 								Hey! I am <br />
 								<TypeAnimation
 									sequence={[
-										// Same substring at the start will only be typed out once, initially
-										"Basit Khan",
-										1000, // wait 1s before replacing "Mice" with "Hamsters"
+										"Abdul Basit Khan",
+										1000,
 										"Fullstack Developer",
 										1000,
-										"Web Developer",
+										"Web/App Developer",
 										1000,
-										"Website Designe",
+										"Frontend Developer",
 										1000,
 									]}
 									wrapper="span"
@@ -45,8 +44,7 @@ export default function HeroOne() {
 								</span>
 							</h4>
 							<p className="text-slate-400 max-w-xl">
-								Obviously I am a fullstack developer with over 7 years of
-								experience. Experienced with all stages of the development.
+								A fullstack developer with over 4 years of experience. Experienced with all stages of the development.
 							</p>
 
 							<div className="mt-6">

@@ -17,15 +17,14 @@ export default function HeroTwo(){
                     <h4 className="font-bold lg:text-[40px] text-3xl lg:leading-normal leading-normal mb-4">Basit Khan</h4>
                     <h4 className="font-semibold leading-normal text-[22px] mb-5">I am <TypeAnimation
                             sequence={[
-                                // Same substring at the start will only be typed out once, initially
-                                'Basit Khan',
-                                1000, // wait 1s before replacing "Mice" with "Hamsters"
-                                'Website Designer',
+                                "Abdul Basit Khan",
                                 1000,
-                                'Web Developer',
+                                "Fullstack Developer",
                                 1000,
-                                'UI/UX Designer',
-                                1000
+                                "Web/App Developer",
+                                1000,
+                                "Frontend Developer",
+                                1000,
                             ]}
                             wrapper="span"
                             speed={50}
