@@ -1,55 +1,110 @@
 import * as Icon from "react-feather";
+import { FaGem, FaServer, FaNode, FaReact, FaGithub, FaGitlab, FaDatabase, FaMapMarkerAlt, FaCheckSquare } from 'react-icons/fa';
+import { TbBrandNextjs } from 'react-icons/tb';
+import { SiStimulus } from 'react-icons/si';
+import { IoLogoJavascript } from 'react-icons/io5';
 
 export const expertiseData = [
-	{
-		title: "Ruby On Rails",
-		Icon: Icon.Code,
-	},
-	{
-		title: "Node|Express JS",
-		Icon: Icon.Server,
-	},
-	{
-		title: "React JS",
-		Icon: Icon.Feather,
-	},
-	{
-		title: "Next JS",
-		Icon: Icon.Coffee,
-	},
-	{
-		title: "Stimulus",
-		Icon: Icon.Activity,
-	},
-	{
-		title: "Github | GitLab",
-		Icon: Icon.GitHub,
-	},
-	{
-		title: "Bitbucket",
-		Icon: Icon.Gitlab,
-	},
-	{
-		title: "RestAPIs",
-		Icon: Icon.Target,
-	},
-	{
-		title: "MySQL | PostgreSQL",
-		Icon: Icon.Database,
-	},
-	{
-		title: "HTML | CSS | JS",
-		Icon: Icon.Codepen,
-	},
-	{
-		title: "Google Maps",
-		Icon: Icon.MapPin,
-	},
-	{
-		title: "RSpec",
-		Icon: Icon.CheckSquare,
-	},
+    {
+        title: 'Ruby On Rails',
+        Icon: FaGem,
+    },
+    {
+        title: 'Node|Express JS',
+        Icon: FaNode,
+    },
+    {
+        title: 'React JS',
+        Icon: FaReact,
+    },
+    {
+        title: 'Next JS',
+        Icon: TbBrandNextjs,
+    },
+    {
+        title: 'Stimulus',
+        Icon: SiStimulus,
+    },
+    {
+        title: 'Github | GitLab',
+        Icon: FaGithub,
+    },
+    {
+        title: 'Bitbucket',
+        Icon: FaGitlab,
+    },
+    {
+        title: 'RestAPIs',
+        Icon: FaServer,
+    },
+    {
+        title: 'MySQL | PostgreSQL',
+        Icon: FaDatabase,
+    },
+    {
+        title: 'HTML | CSS | JS',
+        Icon: IoLogoJavascript,
+    },
+    {
+        title: 'Google Maps',
+        Icon: FaMapMarkerAlt,
+    },
+    {
+        title: 'RSpec',
+        Icon: FaCheckSquare,
+    },
 ];
+
+// export const expertiseData = [
+// 	{
+// 		title: "Ruby On Rails",
+// 		Icon: Icon.Code,
+// 	},
+// 	{
+// 		title: "Node|Express JS",
+// 		Icon: Icon.Server,
+// 	},
+// 	{
+// 		title: "React JS",
+// 		Icon: Icon.Feather,
+// 	},
+// 	{
+// 		title: "Next JS",
+// 		Icon: Icon.Coffee,
+// 	},
+// 	{
+// 		title: "Stimulus",
+// 		Icon: Icon.Activity,
+// 	},
+// 	{
+// 		title: "Github | GitLab",
+// 		Icon: Icon.GitHub,
+// 	},
+// 	{
+// 		title: "Bitbucket",
+// 		Icon: Icon.Gitlab,
+// 	},
+// 	{
+// 		title: "RestAPIs",
+// 		Icon: Icon.Target,
+// 	},
+// 	{
+// 		title: "MySQL | PostgreSQL",
+// 		Icon: Icon.Database,
+// 	},
+// 	{
+// 		title: "HTML | CSS | JS",
+// 		Icon: Icon.Codepen,
+// 	},
+// 	{
+// 		title: "Google Maps",
+// 		Icon: Icon.MapPin,
+// 	},
+// 	{
+// 		title: "RSpec",
+// 		Icon: Icon.CheckSquare,
+// 	},
+// ];
 
 export const servicesData = [
 	{
