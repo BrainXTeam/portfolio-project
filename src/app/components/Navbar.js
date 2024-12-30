@@ -55,7 +55,7 @@ export default function Navbar() {
 									</span>
 								</span>
 							</Link>
-							<Link href="https://github.com/abdul-basit-khan-dev" target="_blank" className="ms-1">
+							<Link href="https://github.com/abdulbasitkhandeveloper" target="_blank" className="ms-1">
 								<span className="login-btn-primary ">
 									<span className="btn btn-icon btn-sm rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white">
 										<Unicons.UilGithub width={16} />
