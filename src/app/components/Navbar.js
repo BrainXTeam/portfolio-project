@@ -50,7 +50,7 @@ export default function Navbar() {
 									</span>
 								</span>
 								<span className="login-btn-light">
-									<span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700">
+									<span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 hover:border-gray-100 dark:border-gray-200 dark:hover:border-gray-400">
 										<Unicons.UilLinkedin width={16} />
 									</span>
 								</span>
@@ -62,7 +62,7 @@ export default function Navbar() {
 									</span>
 								</span>
 								<span className="login-btn-light ">
-									<span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 dark:bg-slate-900 dark:hover:bg-gray-700 hover:border-gray-100 dark:border-gray-700 dark:hover:border-gray-700">
+									<span className="btn btn-icon btn-sm rounded-full bg-gray-50 hover:bg-gray-200 hover:border-gray-100 dark:border-gray-200 dark:hover:border-gray-400">
 										<Unicons.UilGithub width={16} />
 									</span>
 								</span>
