@@ -80,7 +80,7 @@
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
       "static/chunks/644.c12baf199a1e810b.js",
-      "static/chunks/27.8251c3d094fa4419.js"
+      "static/chunks/27.622eef4c92e74c5c.js"
     ]
   },
   "app/index-dark/page.js -> ../components/Navbar": {
@@ -201,7 +201,7 @@
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
       "static/chunks/644.c12baf199a1e810b.js",
-      "static/chunks/27.8251c3d094fa4419.js"
+      "static/chunks/27.622eef4c92e74c5c.js"
     ]
   },
   "app/index-rtl/page.js -> ../components/Navbar": {
@@ -562,7 +562,7 @@
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
       "static/chunks/644.c12baf199a1e810b.js",
-      "static/chunks/27.8251c3d094fa4419.js"
+      "static/chunks/27.622eef4c92e74c5c.js"
     ]
   },
   "app/page.js -> ./components/Navbar": {

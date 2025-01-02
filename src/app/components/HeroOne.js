@@ -56,7 +56,8 @@ export default function HeroOne() {
 									Hire Me
 								</Link>
 								<Link
-									href=""
+									href="/images/cv/abdul-basit-khan-resume.pdf"
+									download
 									className="btn bg-amber-500/10 hover:bg-amber-500 border-amber-500/10 hover:border-amber-500 text-amber-500 hover:text-white rounded-md ms-1"
 								>
 									Download CV
