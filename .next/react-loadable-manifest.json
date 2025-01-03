@@ -15,7 +15,7 @@
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
       "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/334.9bf5526b07e15730.js"
+      "static/chunks/334.e30775a9abc8beb9.js"
     ]
   },
   "app/index-dark/page.js -> ../components/Blogs": {
@@ -136,7 +136,7 @@
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
       "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/334.9bf5526b07e15730.js"
+      "static/chunks/334.e30775a9abc8beb9.js"
     ]
   },
   "app/index-rtl/page.js -> ../components/Blogs": {
@@ -257,7 +257,7 @@
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
       "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/334.9bf5526b07e15730.js"
+      "static/chunks/334.e30775a9abc8beb9.js"
     ]
   },
   "app/index-three/page.js -> ../components/Blogs": {
@@ -377,7 +377,7 @@
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
       "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/334.9bf5526b07e15730.js"
+      "static/chunks/334.e30775a9abc8beb9.js"
     ]
   },
   "app/index-two/page.js -> ../components/Blogs": {
@@ -497,7 +497,7 @@
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
       "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/334.9bf5526b07e15730.js"
+      "static/chunks/334.e30775a9abc8beb9.js"
     ]
   },
   "app/page.js -> ./components/Blogs": {
