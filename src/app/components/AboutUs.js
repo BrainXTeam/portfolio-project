@@ -50,14 +50,7 @@ export default function AboutUs() {
 							</h3>
 
 							<p className="text-slate-400 max-w-xl text-[15px]">
-								Obviously I am a Web Designer. Web Developer with over 7 years
-								of experience. Experienced with all stages of the development
-								cycle for dynamic web projects. The as opposed to using Content
-								here, content here, making it look like readable English.
-							</p>
-							<p className="text-slate-400 max-w-xl text-[15px] mt-6">
-								I am a professional web designer. My motive is to build a best
-								web design with my all years of experience.
+							I'm a Full-Stack Software Engineer specializing in Web Development, with over four years of experience. I have collaborated with clients worldwide to help them achieve their business goals. My expertise spans all stages of the development process, ensuring high-quality and impactful solutions.
 							</p>
 
 							<div className="mt-6">
