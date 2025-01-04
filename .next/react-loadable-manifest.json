@@ -1,4 +1,10 @@
 {
+  "app/components/AboutUs.js -> tiny-slider-react": {
+    "id": 6028,
+    "files": [
+      "static/chunks/28.ceaf411f314d60e7.js"
+    ]
+  },
   "app/components/Clients.js -> tiny-slider-react": {
     "id": 6028,
     "files": [
@@ -8,14 +14,15 @@
   "app/index-dark/page.js -> ../components/AboutUs": {
     "id": 1334,
     "files": [
+      "static/css/992d71d3e418001c.css",
       "static/chunks/f8025e75.1ebc9f0f6a34c123.js",
       "static/chunks/30a37ab2.7990181159d5a01b.js",
       "static/chunks/8e1d74a4.81741a0252d8de18.js",
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/334.e30775a9abc8beb9.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/334.28c0259add4b7e24.js"
     ]
   },
   "app/index-dark/page.js -> ../components/Blogs": {
@@ -27,8 +34,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/875.b188ec0ebd27a39a.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/875.8648aad0a3a059c7.js"
     ]
   },
   "app/index-dark/page.js -> ../components/CTABanner": {
@@ -48,8 +55,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/595.ab917aa9eb73f2dd.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/595.b8a147d2a7508257.js"
     ]
   },
   "app/index-dark/page.js -> ../components/Experience": {
@@ -102,8 +109,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/522.9993ce72eff92065.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/522.55383145f7413834.js"
     ]
   },
   "app/index-dark/page.js -> ../components/Service": {
@@ -114,8 +121,8 @@
       "static/chunks/8e1d74a4.81741a0252d8de18.js",
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/140.ee8a704be7c8cb3f.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/140.a2a54012772fc064.js"
     ]
   },
   "app/index-dark/page.js -> ../components/Switcher": {
@@ -129,14 +136,15 @@
   "app/index-rtl/page.js -> ../components/AboutUs": {
     "id": 1334,
     "files": [
+      "static/css/992d71d3e418001c.css",
       "static/chunks/f8025e75.1ebc9f0f6a34c123.js",
       "static/chunks/30a37ab2.7990181159d5a01b.js",
       "static/chunks/8e1d74a4.81741a0252d8de18.js",
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/334.e30775a9abc8beb9.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/334.28c0259add4b7e24.js"
     ]
   },
   "app/index-rtl/page.js -> ../components/Blogs": {
@@ -148,8 +156,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/875.b188ec0ebd27a39a.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/875.8648aad0a3a059c7.js"
     ]
   },
   "app/index-rtl/page.js -> ../components/CTABanner": {
@@ -169,8 +177,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/595.ab917aa9eb73f2dd.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/595.b8a147d2a7508257.js"
     ]
   },
   "app/index-rtl/page.js -> ../components/Experience": {
@@ -223,8 +231,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/522.9993ce72eff92065.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/522.55383145f7413834.js"
     ]
   },
   "app/index-rtl/page.js -> ../components/Service": {
@@ -235,8 +243,8 @@
       "static/chunks/8e1d74a4.81741a0252d8de18.js",
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/140.ee8a704be7c8cb3f.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/140.a2a54012772fc064.js"
     ]
   },
   "app/index-rtl/page.js -> ../components/Switcher": {
@@ -250,14 +258,15 @@
   "app/index-three/page.js -> ../components/AboutUs": {
     "id": 1334,
     "files": [
+      "static/css/992d71d3e418001c.css",
       "static/chunks/f8025e75.1ebc9f0f6a34c123.js",
       "static/chunks/30a37ab2.7990181159d5a01b.js",
       "static/chunks/8e1d74a4.81741a0252d8de18.js",
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/334.e30775a9abc8beb9.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/334.28c0259add4b7e24.js"
     ]
   },
   "app/index-three/page.js -> ../components/Blogs": {
@@ -269,8 +278,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/875.b188ec0ebd27a39a.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/875.8648aad0a3a059c7.js"
     ]
   },
   "app/index-three/page.js -> ../components/CTABanner": {
@@ -290,8 +299,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/595.ab917aa9eb73f2dd.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/595.b8a147d2a7508257.js"
     ]
   },
   "app/index-three/page.js -> ../components/Experience": {
@@ -343,8 +352,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/522.9993ce72eff92065.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/522.55383145f7413834.js"
     ]
   },
   "app/index-three/page.js -> ../components/Service": {
@@ -355,8 +364,8 @@
       "static/chunks/8e1d74a4.81741a0252d8de18.js",
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/140.ee8a704be7c8cb3f.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/140.a2a54012772fc064.js"
     ]
   },
   "app/index-three/page.js -> ../components/Switcher": {
@@ -370,14 +379,15 @@
   "app/index-two/page.js -> ../components/AboutUs": {
     "id": 1334,
     "files": [
+      "static/css/992d71d3e418001c.css",
       "static/chunks/f8025e75.1ebc9f0f6a34c123.js",
       "static/chunks/30a37ab2.7990181159d5a01b.js",
       "static/chunks/8e1d74a4.81741a0252d8de18.js",
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/334.e30775a9abc8beb9.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/334.28c0259add4b7e24.js"
     ]
   },
   "app/index-two/page.js -> ../components/Blogs": {
@@ -389,8 +399,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/875.b188ec0ebd27a39a.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/875.8648aad0a3a059c7.js"
     ]
   },
   "app/index-two/page.js -> ../components/CTABanner": {
@@ -410,8 +420,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/595.ab917aa9eb73f2dd.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/595.b8a147d2a7508257.js"
     ]
   },
   "app/index-two/page.js -> ../components/Experience": {
@@ -463,8 +473,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/522.9993ce72eff92065.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/522.55383145f7413834.js"
     ]
   },
   "app/index-two/page.js -> ../components/Service": {
@@ -475,8 +485,8 @@
       "static/chunks/8e1d74a4.81741a0252d8de18.js",
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/140.ee8a704be7c8cb3f.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/140.a2a54012772fc064.js"
     ]
   },
   "app/index-two/page.js -> ../components/Switcher": {
@@ -490,14 +500,15 @@
   "app/page.js -> ./components/AboutUs": {
     "id": 1334,
     "files": [
+      "static/css/992d71d3e418001c.css",
       "static/chunks/f8025e75.1ebc9f0f6a34c123.js",
       "static/chunks/30a37ab2.7990181159d5a01b.js",
       "static/chunks/8e1d74a4.81741a0252d8de18.js",
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/334.e30775a9abc8beb9.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/334.28c0259add4b7e24.js"
     ]
   },
   "app/page.js -> ./components/Blogs": {
@@ -509,8 +520,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/875.b188ec0ebd27a39a.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/875.8648aad0a3a059c7.js"
     ]
   },
   "app/page.js -> ./components/CTABanner": {
@@ -530,8 +541,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/595.ab917aa9eb73f2dd.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/595.b8a147d2a7508257.js"
     ]
   },
   "app/page.js -> ./components/Experience": {
@@ -584,8 +595,8 @@
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
       "static/chunks/565.5a6d2a477c7fdbd4.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/522.9993ce72eff92065.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/522.55383145f7413834.js"
     ]
   },
   "app/page.js -> ./components/Service": {
@@ -596,8 +607,8 @@
       "static/chunks/8e1d74a4.81741a0252d8de18.js",
       "static/chunks/9c4e2130.bbef34e47e5ca22e.js",
       "static/chunks/173.cf60bdbd7ba189d0.js",
-      "static/chunks/57.cda8158852a5a5a8.js",
-      "static/chunks/140.ee8a704be7c8cb3f.js"
+      "static/chunks/705.18858c0f9372b259.js",
+      "static/chunks/140.a2a54012772fc064.js"
     ]
   },
   "app/page.js -> ./components/Switcher": {

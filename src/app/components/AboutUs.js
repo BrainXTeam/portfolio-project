@@ -1,9 +1,36 @@
 "use client";
-import React from "react";
+import React from "react"; // Removed useEffect and useRef
 import Link from "next/link";
 import Image from "next/image";
+import dynamic from "next/dynamic"; // Added dynamic import
+const TinySlider = dynamic(() => import('tiny-slider-react'), { ssr: false }); // Dynamic import for TinySlider
+import '../../../node_modules/tiny-slider/dist/tiny-slider.css'; // Import TinySlider CSS
 import { expertiseData } from "../Data/data";
 import CountUp from "react-countup";
+
+const settings = {
+    lazyload: true,
+    controls: false,
+    mouseDrag: true,
+    loop: true,
+    autoplay: true,
+    autoplayButtonOutput: false,
+    autoplayTimeout: 3000,
+    navPosition: "bottom",
+    speed: 500,
+    gutter: 12,
+    responsive: {
+        992: {
+            items: 6
+        },
+        767: {
+            items: 3
+        },
+        320: {
+            items: 1
+        },
+    },
+};
 
 export default function AboutUs() {
 	return (
@@ -71,33 +98,31 @@ export default function AboutUs() {
 					<h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
 						Technical skills & Expertise
 					</h3>
-
-					<p className="text-slate-400 max-w-xl mx-auto text-[15px]">
-						Obviously I am a Web Designer. Web Developer with over 7 years of
-						experience. Experienced with all stages of the development.
-					</p>
 				</div>
 
-				<div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
-					{expertiseData.map((item, index) => {
-						const Icon = item.Icon;
-						return (
-							<div
-								className="flex group shadow shadow-gray-200 dark:shadow-gray-800 dark:hover:shadow-gray-700 items-center p-3 rounded-lg bg-white dark:bg-slate-900"
-								key={index}
-							>
-								<div className="flex items-center justify-center h-[45px] min-w-[45px] -rotate-45 bg-amber-500/10 group-hover:bg-amber-500 text-amber-500 group-hover:text-white text-center rounded-xl me-5 transition-all duration-500">
-									<div className="rotate-45">
-										<Icon className="h-5 w-5" />
-									</div>
-								</div>
-								<div className="flex-1">
-									<h4 className="mb-0 text-[17px] font-medium">{item.title}</h4>
-								</div>
-							</div>
-						);
-					})}
-				</div>
+                <div className="mt-8">
+                    <div className="tiny-three-item bg-gray-50 dark:bg-slate-800 py-2 rounded-md">
+                        <TinySlider settings={settings}>
+                            {expertiseData.map((item, index) => {
+                                const Icon = item.Icon;
+                                return (
+                                    <div className="tiny-slide" key={index}>
+                                        <div className="grid items-center justify-center">
+                                            <div className="flex items-center justify-center h-[45px] w-12 -rotate-45 bg-amber-500/10 group-hover:bg-amber-500 text-amber-500 group-hover:text-white text-center rounded-xl my-2 mx-auto transition-all duration-500">
+                                                <div className="rotate-45">
+                                                    <Icon className="h-5 w-5" />
+                                                </div>
+                                            </div>
+                                            <div className="flex-1 text-center mt-1">
+                                                <h4 className="mb-0 text-[17px] font-medium">{item.title}</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                );
+                            })}
+                        </TinySlider>
+                    </div>
+                </div>
 			</div>
 		</section>
 	);
