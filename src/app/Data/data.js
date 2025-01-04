@@ -10,7 +10,7 @@ export const expertiseData = [
         Icon: FaGem,
     },
     {
-        title: 'Node|Express JS',
+        title: 'C# | .Net',
         Icon: FaNode,
     },
     {
@@ -18,7 +18,7 @@ export const expertiseData = [
         Icon: FaReact,
     },
     {
-        title: 'Next JS',
+        title: 'Shopify',
         Icon: TbBrandNextjs,
     },
     {
@@ -32,6 +32,18 @@ export const expertiseData = [
     {
         title: 'Bitbucket',
         Icon: FaGitlab,
+    },
+	{
+        title: 'Javascript',
+        Icon: IoLogoJavascript,
+    },
+	{
+        title: 'Figma',
+        Icon: Icon.FileText,
+    },
+	{
+        title: 'Trello',
+        Icon: Icon.List,
     },
     {
         title: 'RestAPIs',
@@ -54,57 +66,6 @@ export const expertiseData = [
         Icon: FaCheckSquare,
     },
 ];
-
-// export const expertiseData = [
-// 	{
-// 		title: "Ruby On Rails",
-// 		Icon: Icon.Code,
-// 	},
-// 	{
-// 		title: "Node|Express JS",
-// 		Icon: Icon.Server,
-// 	},
-// 	{
-// 		title: "React JS",
-// 		Icon: Icon.Feather,
-// 	},
-// 	{
-// 		title: "Next JS",
-// 		Icon: Icon.Coffee,
-// 	},
-// 	{
-// 		title: "Stimulus",
-// 		Icon: Icon.Activity,
-// 	},
-// 	{
-// 		title: "Github | GitLab",
-// 		Icon: Icon.GitHub,
-// 	},
-// 	{
-// 		title: "Bitbucket",
-// 		Icon: Icon.Gitlab,
-// 	},
-// 	{
-// 		title: "RestAPIs",
-// 		Icon: Icon.Target,
-// 	},
-// 	{
-// 		title: "MySQL | PostgreSQL",
-// 		Icon: Icon.Database,
-// 	},
-// 	{
-// 		title: "HTML | CSS | JS",
-// 		Icon: Icon.Codepen,
-// 	},
-// 	{
-// 		title: "Google Maps",
-// 		Icon: Icon.MapPin,
-// 	},
-// 	{
-// 		title: "RSpec",
-// 		Icon: Icon.CheckSquare,
-// 	},
-// ];
 
 export const servicesData = [
 	{
