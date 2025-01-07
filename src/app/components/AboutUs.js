@@ -8,6 +8,7 @@ import '../../../node_modules/tiny-slider/dist/tiny-slider.css'; // Import TinyS
 import { expertiseData } from "../Data/data";
 import CountUp from "react-countup";
 import GitActivity from "./GitActivity";
+import { FaCode, FaGithub } from 'react-icons/fa'; 
 
 const settings = {
     lazyload: true,
@@ -98,7 +99,7 @@ export default function AboutUs() {
                 <div className="mt-8">
                     <div className="tiny-three-item bg-gray-50 dark:bg-slate-800 py-2 rounded-md">
 						<h3 className="mt-4 mb-6 ms-8 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
-							Technical skills & Expertise
+							<FaCode className="inline-block mr-2" /> Technical skills & Expertise
 						</h3>
                         <TinySlider settings={settings}>
                             {expertiseData.map((item, index) => {
@@ -122,7 +123,19 @@ export default function AboutUs() {
                     </div>
                 </div>
 			</div>
-			<GitActivity />
+
+			<div className="container md:mt-24 mt-16">
+                <div className="mt-8">
+                    <div className="tiny-three-item bg-gray-50 dark:bg-slate-800 py-2 rounded-md">
+						<h3 className="mt-4 mb-6 ms-8 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
+							<FaGithub className="inline-block mr-2" /> GitHub Activity
+						</h3>
+						<div className="ms-8">
+							<GitActivity />
+						</div>
+                    </div>
+                </div>
+			</div>
 		</section>
 	);
 }
