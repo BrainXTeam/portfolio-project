@@ -12,7 +12,7 @@ export default function AddBanner(){
                     <p className="text-white/80 max-w-xl mx-auto text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
                 
                     <div className="relative mt-8">
-                        <Link href="" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Hire Me</Link>
+                        <Link href="https://www.upwork.com/freelancers/~01990c34817caff32c" target="_blank" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md">Hire Me</Link>
                     </div>
                 </div>
             </div>
