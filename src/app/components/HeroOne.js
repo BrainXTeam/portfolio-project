@@ -49,7 +49,7 @@ export default function HeroOne() {
 
 							<div className="mt-6">
 								<Link
-									href="https://wa.me/923176283622"
+									href="https://www.upwork.com/freelancers/~01990c34817caff32c"
 									target="_blank"
 									className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md"
 								>
