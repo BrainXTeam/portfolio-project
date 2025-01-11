@@ -12,13 +12,8 @@ export default function Services() {
 			<div className="container">
 				<div className="grid grid-cols-1 pb-8 text-center">
 					<h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
-						What do i offer?
+						Services I Offer
 					</h3>
-
-					<p className="text-slate-400 max-w-xl mx-auto text-[15px]">
-						Obviously I am a Web Designer. Web Developer with over 7 years of
-						experience. Experienced with all stages of the development.
-					</p>
 				</div>
 
 				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
