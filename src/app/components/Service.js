@@ -18,7 +18,7 @@ export default function Services() {
 
 				<div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 mt-8 gap-[30px]">
 					{servicesData.map((item, index) => {
-						const Icon = item.Icon;
+						const Icon = item.image;
 						return (
 							<div
 								className="px-6 py-10 shadow shadow-gray-200 hover:shadow-md dark:shadow-gray-800 dark:hover:shadow-gray-700 transition duration-500 rounded-2xl bg-white dark:bg-slate-900"
