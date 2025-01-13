@@ -3,7 +3,6 @@ import React,{useEffect} from "react";
 import dynamic from 'next/dynamic';
 
 const Navbar = dynamic(() => import('../components/Navbar'));
-const HeroTwo = dynamic(() => import('../components/HeroTwo'));
 const AboutUs = dynamic(() => import('../components/AboutUs'));
 const Services = dynamic(() => import('../components/Service'));
 const CTABanner = dynamic(() => import('../components/CTABanner'));
@@ -25,7 +24,6 @@ export default function Index(){
     return(
         <>
             <Navbar/>
-            <HeroTwo/>
             <AboutUs/>
             <Services/>
             <CTABanner/>
