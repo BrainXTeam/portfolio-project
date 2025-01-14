@@ -7,6 +7,8 @@ import * as Unicons from '@iconscout/react-unicons'
 export default function Switcher() {
     const [scrollToTops, setScrollToTops] = useState(false); 
     useEffect(()=>{
+        document.documentElement.className = 'dark';
+
       if (typeof window !== "undefined") {
           window.addEventListener("scroll", ()=>{
               setScrollToTops(window.scrollY >= 500)
