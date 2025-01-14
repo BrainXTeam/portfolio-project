@@ -4,6 +4,6 @@
   "/index-rtl/page": "app/index-rtl/page.js",
   "/index-dark/page": "app/index-dark/page.js",
   "/index-three/page": "app/index-three/page.js",
-  "/index-two/page": "app/index-two/page.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/index-two/page": "app/index-two/page.js"
 }
