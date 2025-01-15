@@ -12,7 +12,7 @@ export default function AddBanner(){
                     <p className="text-white/80 max-w-xl mx-auto text-[15px]">You can contact me on these platforms 24/7</p>
                 
                     <div className="relative mt-8">
-                        <Link href="https://www.upwork.com/freelancers/~01990c34817caff32c" target="_blank" className="btn bg-[#6FDA44] hover:bg-[#5BBF3A] border-[#6FDA44] hover:border-[#5BBF3A] text-white rounded-md mr-2">Hire on Upwork</Link>
+                        <Link href="https://www.upwork.com/freelancers/~01990c34817caff32c" target="_blank" className="btn bg-[#6FDA44] hover:bg-[#5BBF3A] border-[#6FDA44] hover:border-[#5BBF3A] text-white rounded-md mx-2">Hire on Upwork</Link>
                         <Link href="https://www.fiverr.com/s/o8A5DwV" target="_blank" className="btn bg-[#1DBF73] hover:bg-[#1AAE63] border-[#1DBF73] hover:border-[#1AAE63] text-white rounded-md">Hire on Fiverr</Link>
                     </div>
                 </div>
