@@ -29,32 +29,12 @@ export default function Footer() {
 						</div>
 
 						<ul className="lg:col-span-4 list-none md:text-end text-center mt-6 md:mt-0">
-							{/* <li className="inline">
-								{" "}
-								<Link
-									href="https://dribbble.com/shreethemes"
-									target="_blank"
-									className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"
-								>
-									<Unicons.UilDribbble width={16} />
-								</Link>
-							</li>
 							<li className="inline">
 								{" "}
 								<Link
-									href="https://www.behance.net/shreethemes"
+									href="https://www.linkedin.com/in/abdul-basit-khan-dev"
 									target="_blank"
-									className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"
-								>
-									<Unicons.UilBehance width={16} />
-								</Link>
-							</li> */}
-							<li className="inline">
-								{" "}
-								<Link
-									href="http://linkedin.com/company/shreethemes"
-									target="_blank"
-									className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"
+									className="btn btn-icon btn-sm border rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"
 								>
 									<Unicons.UilLinkedin width={16} />
 									<i className="uil uil-linkedin" title="Linkedin"></i>
@@ -62,51 +42,47 @@ export default function Footer() {
 							</li>
 							<li className="inline">
 								<Link
-									href="http://linkedin.com/company/shreethemes"
+									href="https://github.com/abdulbasitkhandeveloper"
 									target="_blank"
-									className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"
+									className="btn btn-icon btn-sm border rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"
 								>
 									<Unicons.UilGithub width={16} />
 									<i className="uil uil-linkedin" title="Linkedin"></i>
 								</Link>
 							</li>
-							{/* <li className="inline">
+							<li className="inline">
 								{" "}
 								<Link
-									href="https://www.facebook.com/shreethemes"
+									href="https://www.upwork.com/freelancers/~01990c34817caff32c"
 									target="_blank"
-									className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"
+									className="btn btn-icon btn-sm border rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"
 								>
-									<Unicons.UilFacebookF width={16} />
-									<i
-										className="uil uil-facebook-f align-middle"
-										title="facebook"
-									></i>
+									<Image
+										src="/images/logos/upwork.svg"
+										alt="Upwork"
+										width={16}
+										height={16}
+									/>
 								</Link>
-							</li> */}
-							{/* <li className="inline">
-
+							</li>
+							<li className="inline">
 								<Link
-									href="https://www.instagram.com/shreethemes/"
+									href="https://www.fiverr.com/s/o8A5DwV"
 									target="_blank"
-									className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"
+									className="btn btn-icon btn-sm border rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"
 								>
-									<Unicons.UilInstagram width={16} />
+									<Image
+										src="/images/logos/icons8-fiverr.svg"
+										alt="Upwork"
+										width={22}
+										height={22}
+									/>
 								</Link>
-							</li> */}
-							{/* <li className="inline">
-								<Link
-									href="https://twitter.com/shreethemes"
-									target="_blank"
-									className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"
-								>
-									<Unicons.UilTwitter width={16} />
-								</Link>
-							</li> */}
+							</li>
 							<li className="inline">
 								<Link
 									href="mailto:basitkhanbasit640@gmail.com"
-									className="btn btn-icon btn-sm border border-gray-800 rounded-md hover:border-amber-500 dark:hover:border-amber-500 hover:bg-amber-500 dark:hover:bg-amber-500"
+									className="btn btn-icon btn-sm border rounded-full bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white"
 								>
 									<Unicons.UilEnvelope width={16} />
 								</Link>
