@@ -113,6 +113,7 @@ export const servicesData = [
 		image: "/images/service/qa.jpg",
 	}
 ];
+
 export const project = [
 	{
 		image: "/images/works/Muqawillon.png",
@@ -123,22 +124,17 @@ export const project = [
 	{
 		image: "/images/works/Vital_City.png",
 		title: "Vital City",
-		subTitle: "FullStack Developer (Ruby on Rails)",
+		subTitle: "React Js with Prismic",
 		link: "https://www.vitalcitynyc.org",
 	},
 	{
-		image: "/images/works/switch.png",
-		title: "Switch",
-		subTitle: "Backend Developer (Node.Js/Nest.Js)",
-		link: "https://www.joinswitch.co/",
-	},
-	{
-		image: "/images/works/hotel.jpg",
-		title: "Resort Dummy",
-		subTitle: "React.js",
-		link: "https://react-beach-resort-pro.netlify.app/",
+		image: "/images/works/becomy.png",
+		title: "Becomy",
+		subTitle: "FullStack Developer (Ruby on Rails + React)",
+		link: "https://becomystaging.com/",
 	},
 ];
+
 export const blogData = [
 	{
 		image: "/images/blog/01_giglink.jpg",

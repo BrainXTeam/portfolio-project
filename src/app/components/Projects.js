@@ -19,14 +19,12 @@ export default function Projects() {
 		<section className="relative md:py-24 py-16" id="project">
 			<div className="container">
 				<div className="grid grid-cols-1 pb-8 text-center">
-					<h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
-						My Work & Projects
-					</h3>
-
 					<p className="text-slate-400 max-w-xl mx-auto text-[15px]">
-						Obviously I am a Web Designer. Web Developer with over 7 years of
-						experience. Experienced with all stages of the development.
+						(projects)
 					</p>
+					<h3 className="mb-6 md:text-2xl text-xl md:leading-normal leading-normal font-semibold">
+						Featured Work
+					</h3>
 				</div>
 
 				<div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-1 mt-8 gap-[30px]">
