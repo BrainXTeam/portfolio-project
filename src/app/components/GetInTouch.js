@@ -1,30 +1,24 @@
 'use client'
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Link from "next/link";
 import emailjs from 'emailjs-com';
 import * as Unicons from '@iconscout/react-unicons';
 
 export default function GetInTouch() {
-    const [formData, setFormData] = useState({
-        name: '',
-        email: '',
-        subject: '',
-        comments: ''
-    });
-
-    const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
-    };
+    const form = useRef();
+    const [successMessage, setSuccessMessage] = useState('');
 
     const sendEmail = (e) => {
         e.preventDefault();
 
-        emailjs.send('service_5xlb7mr', 'template_7jpfb9v', formData, 'CbC0hggHbgKz6vi-m')
+        emailjs.sendForm('service_5xlb7mr', 'template_7jpfb9v', form.current, 'CbC0hggHbgKz6vi-m')
             .then((response) => {
                 console.log('Email sent successfully!', response.status, response.text);
+                setSuccessMessage('Your message has been sent successfully!');
+                form.current.reset();
             }, (err) => {
                 console.error('Failed to send email. Error:', err);
+                setSuccessMessage('Failed to send your message. Please try again.');
             });
     };
 
@@ -36,27 +30,33 @@ export default function GetInTouch() {
                     <p className="text-slate-400 max-w-xl mx-auto text-[15px]">Obviously I am a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
                 </div>
 
+                {successMessage && (
+                    <div className="mb-4 text-green-600 text-center">
+                        {successMessage}
+                    </div>
+                )}
+
                 <div className="grid grid-cols-1 lg:grid-cols-12 md:grid-cols-2 mt-8 items-center gap-[30px]">
                     <div className="lg:col-span-8">
                         <div className="p-6 rounded-md shadow bg-white dark:bg-slate-900">
-                            <form onSubmit={sendEmail}>
+                            <form ref={form} onSubmit={sendEmail}>
                                 <div className="grid lg:grid-cols-12 lg:gap-5">
                                     <div className="lg:col-span-6 mb-5">
-                                        <input name="name" id="name" type="text" className="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-10 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Your Name :" onChange={handleChange} />
+                                        <input name="name" id="name" type="text" className="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-10 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Your Name :" required />
                                     </div>
 
                                     <div className="lg:col-span-6 mb-5">
-                                        <input name="email" id="email" type="email" className="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-10 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Your Email :" onChange={handleChange} />
+                                        <input name="email" id="email" type="email" className="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-10 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Your Email :" required />
                                     </div>
                                 </div>
 
                                 <div className="grid grid-cols-1">
                                     <div className="mb-5">
-                                        <input name="subject" id="subject" className="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-10 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Write your Subject :" onChange={handleChange} />
+                                        <input name="subject" id="subject" className="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-10 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Write your Subject :" />
                                     </div>
 
                                     <div className="mb-5">
-                                        <textarea name="comments" id="comments" className="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-28 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Write your Message :" onChange={handleChange}></textarea>
+                                        <textarea name="message" id="comments" className="form-input w-full py-2 px-3 border border-inherit dark:border-gray-800 dark:bg-slate-900 dark:text-slate-200 rounded h-28 outline-none bg-transparent focus:border-amber-500/50 dark:focus:border-amber-500/50 focus:shadow-none focus:ring-0 text-[15px]" placeholder="Write your Message :" required></textarea>
                                     </div>
                                 </div>
                                 <button type="submit" id="submit" name="send" className="btn bg-amber-500 hover:bg-amber-600 border-amber-500 hover:border-amber-600 text-white rounded-md h-11 justify-center flex items-center">Send Message</button>
