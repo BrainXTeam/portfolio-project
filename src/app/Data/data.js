@@ -1,69 +1,93 @@
 import * as Icon from "react-feather";
-import { FaGem, FaServer, FaNode, FaReact, FaGithub, FaGitlab, FaDatabase, FaMapMarkerAlt, FaCheckSquare } from 'react-icons/fa';
-import { TbBrandNextjs } from 'react-icons/tb';
-import { SiStimulus } from 'react-icons/si';
+import { FaGem, FaServer, FaNode, FaReact, FaGithub, FaDatabase, FaAngular, FaBootstrap, FaDocker, FaAws, FaCloud } from 'react-icons/fa';
+import { SiRubyonrails, SiMongodb, SiPostgresql, SiMysql, SiDotnet, SiFlutter, SiExpress, SiTailwindcss, SiJira, SiTrello } from 'react-icons/si';
 import { IoLogoJavascript } from 'react-icons/io5';
+import { TbApi, TbBrandReactNative } from 'react-icons/tb';
 
 export const expertiseData = [
     {
-        title: 'Ruby On Rails',
-        Icon: FaGem,
-    },
-    {
-        title: 'C# | .Net',
-        Icon: FaNode,
-    },
-    {
-        title: 'React JS',
+        title: 'React.js',
         Icon: FaReact,
     },
     {
-        title: 'Shopify',
-        Icon: TbBrandNextjs,
+        title: 'Node.js',
+        Icon: FaNode,
     },
     {
-        title: 'Stimulus',
-        Icon: SiStimulus,
+        title: 'Ruby on Rails',
+        Icon: SiRubyonrails,
     },
     {
-        title: 'Github | GitLab',
+        title: 'JavaScript',
+        Icon: IoLogoJavascript,
+    },
+    {
+        title: '.NET Core',
+        Icon: SiDotnet,
+    },
+    {
+        title: 'ASP.NET Core',
+        Icon: SiDotnet,
+    },
+    {
+        title: 'Flutter',
+        Icon: SiFlutter,
+    },
+    {
+        title: '.NET MAUI',
+        Icon: SiDotnet,
+    },
+    {
+        title: 'Angular',
+        Icon: FaAngular,
+    },
+    {
+        title: 'Express.js',
+        Icon: SiExpress,
+    },
+    {
+        title: 'PostgreSQL',
+        Icon: SiPostgresql,
+    },
+    {
+        title: 'MongoDB',
+        Icon: SiMongodb,
+    },
+    {
+        title: 'MySQL',
+        Icon: SiMysql,
+    },
+    {
+        title: 'REST APIs',
+        Icon: TbApi,
+    },
+    {
+        title: 'Tailwind CSS',
+        Icon: SiTailwindcss,
+    },
+    {
+        title: 'Bootstrap',
+        Icon: FaBootstrap,
+    },
+    {
+        title: 'Microsoft Azure',
+        Icon: FaCloud,
+    },
+    {
+        title: 'GitHub',
         Icon: FaGithub,
     },
     {
-        title: 'Bitbucket',
-        Icon: FaGitlab,
+        title: 'Docker',
+        Icon: FaDocker,
     },
-	{
-        title: 'Javascript',
-        Icon: IoLogoJavascript,
+    {
+        title: 'Jira',
+        Icon: SiJira,
     },
-	{
-        title: 'Figma',
-        Icon: Icon.FileText,
-    },
-	{
+    {
         title: 'Trello',
-        Icon: Icon.List,
-    },
-    {
-        title: 'RestAPIs',
-        Icon: FaServer,
-    },
-    {
-        title: 'MySQL | PostgreSQL',
-        Icon: FaDatabase,
-    },
-    {
-        title: 'HTML | CSS | JS',
-        Icon: IoLogoJavascript,
-    },
-    {
-        title: 'Google Maps',
-        Icon: FaMapMarkerAlt,
-    },
-    {
-        title: 'RSpec',
-        Icon: FaCheckSquare,
+        Icon: SiTrello,
     },
 ];
 
