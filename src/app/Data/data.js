@@ -157,6 +157,30 @@ export const project = [
 		subTitle: "FullStack Developer (Ruby on Rails + React)",
 		link: "https://becomystaging.com/",
 	},
+	{
+		image: "/images/works/app-images/wullut.png",
+		title: "Wullut",
+		subTitle: "FLutter + Firebase",
+		link: "#",
+	},
+	{
+		image: "/images/works/app-images/tiwoly.png",
+		title: "Auth Screens",
+		subTitle: "Maui + Azure + Rest API",
+		link: "#",
+	},
+	{
+		image: "/images/works/app-images/trvlbestie.png",
+		title: "Flutter + Firebase + .NET Core",
+		subTitle: "Mobile Signup UI",
+		link: "#",
+	},
+	{
+		image: "/images/works/app-images/veltpay.png",
+		title: "Card Carousel",
+		subTitle: "Flutter + Firebase + .NET Core + Rest API ",
+		link: "#",
+	},
 ];
 
 export const blogData = [

@@ -35,14 +35,14 @@ export default function Projects() {
 									key={index}
 									className="relative group overflow-hidden rounded-lg shadow shadow-slate-200 dark:shadow-gray-800"
 								>
-									<Image
-										height={0}
-										width={0}
-										sizes="100vw"
-										style={{ height: "100%", width: "100%" }}
-										src={pro.image}
-										alt=""
-									/>
+									<div className="relative w-full h-56 md:h-48 lg:h-64">
+										<Image
+											src={pro.image}
+											alt={pro.title}
+											fill
+											className="object-cover"
+										/>
+									</div>
 									<div className="absolute inset-0 opacity-0 group-hover:opacity-100 bg-gradient-to-b to-slate-900 from-transparent transition-all duration-500"></div>
 									<div className="absolute bottom-0 opacity-0 group-hover:opacity-100 m-6 transition-all duration-500">
 										<Link
@@ -67,7 +67,7 @@ export default function Projects() {
 									</div>
 								</div>
 							);
-						})}
+							})}
 				</div>
 			</div>
 		</section>
